@@ -1,0 +1,402 @@
+{
+  "sitio": {
+    "titulo": "Programación competitiva y pensamiento computacional en Ingeniería de Sistemas",
+    "titulo_proyecto": "Programación competitiva como estrategia para visibilizar el pensamiento computacional y fortalecer la resolución de problemas en educación en ingeniería",
+    "subtitulo": "Proyecto de la VI Convocatoria de Internacionalización del Currículo (IdC) 2026",
+    "programa": "Ingeniería de Sistemas, Facultad de Ingenierías, UCEVA",
+    "semillero": "Semillero Goslint",
+    "lider": "Vivian Orejuela Ruiz",
+    "evento": "Jornada de Socialización de Resultados, 27 de noviembre de 2026, Dirección de Internacionalización"
+  },
+  "cifras": [
+    {
+      "valor": "7",
+      "texto": "estudiantes del semillero en el Training Camp"
+    },
+    {
+      "valor": "13",
+      "texto": "estudiantes completaron el curso virtual"
+    },
+    {
+      "valor": "10",
+      "texto": "insignias digitales entregadas"
+    },
+    {
+      "valor": "2",
+      "texto": "docentes en WEEF 2026"
+    },
+    {
+      "valor": "841",
+      "texto": "asistentes a la clase espejo (1.658 inscritos)"
+    }
+  ],
+  "secciones": [
+    {
+      "id": "semillero",
+      "titulo": "Semillero Goslint",
+      "resumen": "GOSLINT es el semillero de investigación en programación competitiva del programa de Ingeniería de Sistemas de la UCEVA. Funciona desde 2022, está adscrito al grupo GIGAE3D en la línea de redes y telemática y lo lideran los profesores Vivian Orejuela Ruiz y Diego Fernando Chicaiza Burbano. Reúne a estudiantes que quieren llevar la programación más allá del aula: entrenan en los laboratorios de sistemas con problemas tipo maratón, compiten en equipos de tres personas con un solo computador y convierten lo que aprenden en trabajos de grado y artículos. Los estudiantes con más experiencia dirigen los entrenamientos de quienes van llegando, y así el semillero mantiene su relevo.",
+      "datos": [
+        {
+          "etiqueta": "Funciona desde",
+          "valor": "2022"
+        },
+        {
+          "etiqueta": "Adscripción",
+          "valor": "Grupo GIGAE3D, línea de redes y telemática"
+        },
+        {
+          "etiqueta": "Profesores líderes",
+          "valor": "Vivian Orejuela Ruiz y Diego Fernando Chicaiza Burbano"
+        },
+        {
+          "etiqueta": "Redes en las que participa",
+          "valor": "Red de Programación Competitiva (RPC) y Circuito Colombiano de Programación Competitiva (CCPL)"
+        }
+      ],
+      "parrafos": [
+        "El entrenamiento es permanente. Los estudiantes se reúnen en las salas de sistemas para resolver problemas y repasar temas, practican con las competencias de la RPC y del CCPL para ganar ritmo, y entrenan como se compite en la ICPC: tres personas y un computador.",
+        "El semillero organiza la Maratón de Programación UCEVA, abierta a los estudiantes del programa y de la región, que en 2026 llegó a su edición XII. En los últimos años organizó tres maratones internas, con un promedio de 52 participantes por evento. También hubo una edición en Panamá, la primera maratón en el exterior organizada por la UCEVA.",
+        "Del semillero salen trabajos de grado y artículos de investigación. Hoy hay dos trabajos de grado en curso, uno sobre un sistema de evaluación de código fuente para maratones de programación en la UCEVA y otro sobre un módulo de entrenamiento para programación competitiva, además de dos artículos en elaboración, uno de ellos sobre el juez virtual Goslint. El semillero también clasificó a la fase nacional de la Red Regional de Semilleros de Investigación (RREDSI)."
+      ],
+      "tabla_titulo": "Participación en la ICPC",
+      "tabla_nota": "Resultados del equipo UCEVA Goslint, con la profesora Vivian Orejuela Ruiz como coach.",
+      "tabla_columnas": [
+        "Competencia",
+        "Fecha",
+        "Resultado"
+      ],
+      "tabla_filas": [
+        [
+          "ICPC Colombia, XXXVIII Maratón Nacional ACIS/REDIS",
+          "2024",
+          "Mención de honor"
+        ],
+        [
+          "ICPC Colombia, XXXIX Maratón Nacional ACIS/REDIS",
+          "18 de octubre de 2025",
+          "Puesto 33"
+        ],
+        [
+          "ICPC South America North Finals (fase regional)",
+          "8 de noviembre de 2025",
+          "Puesto 41"
+        ],
+        [
+          "ICPC Colombia, XL Maratón Nacional ACIS/REDIS",
+          "3 de octubre de 2026",
+          "Puesto 44"
+        ]
+      ],
+      "temas_titulo": "Cómo se clasifica a la Maratón Nacional",
+      "temas": [
+        "Evaluación tipo maratón, a cargo del profesor Diego Chicaiza: 2,0 puntos",
+        "Concepto del líder del semillero, según asistencia, nivel y puntuación periódica: 0,5 puntos",
+        "Participación en las competencias de la RPC: 1,0 punto",
+        "Actividad en Codeforces durante el año: 1,0 punto",
+        "Liderazgo en actividades del semillero: 0,5 puntos"
+      ],
+      "pendientes": [
+        "Puestos de las participaciones en RPC y UTP Open. En el Drive solo hay los enunciados de los problemas, no los marcadores.",
+        "Año y ciudad de la maratón de Panamá.",
+        "Fotos de eventos del semillero (Maratón Nacional ICPC, regional, maratones internas). La presentación del semillero las tiene, pero pesa 26 MB y no se pudo descargar.",
+        "Confirmar el dato de las tres maratones internas con 52 participantes en promedio."
+      ],
+      "galeria": [
+        {
+          "archivo": "fotos/semillero-01-icpc-sa-regional-2025.jpg",
+          "alt": "ICPC South America North Finals 2025 (regional latinoamericana).",
+          "pie": "Regional latinoamericana ICPC, 2025.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/semillero-02-icpc-nacional-2026.jpg",
+          "alt": "Maratón Nacional ICPC Colombia 2026.",
+          "pie": "Maratón Nacional ICPC, 2026.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/semillero-03-maraton-interna-2026.jpg",
+          "alt": "Maratón interna del semillero 2026.",
+          "pie": "Maratón interna Goslint, 2026.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/semillero-04-icpc-nacional-2024.jpg",
+          "alt": "Estudiantes y la profesora junto al pendón de la Maratón Nacional ACIS-REDIS 2024.",
+          "pie": "Maratón Nacional ICPC, 2024.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/semillero-05-utp-open.jpg",
+          "alt": "Grupo del semillero frente a la letra UTP en la Universidad Tecnológica de Pereira.",
+          "pie": "UTP Open (Pereira).",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/semillero-06-icpc-nacional-2025.jpg",
+          "alt": "Equipo en la Maratón Nacional ICPC Colombia 2025.",
+          "pie": "Maratón Nacional ICPC, 2025.",
+          "publicar": true
+        }
+      ],
+      "fuentes": [
+        "Presentación del semillero GOSLINT UCEVA.",
+        "Postulación del semillero a los premios CIDESCO y certificados de participación."
+      ]
+    },
+    {
+      "id": "training-camp",
+      "titulo": "Training Camp EAFIT 2026",
+      "resumen": "Siete estudiantes del semillero Goslint viajaron a Medellín para entrenar programación competitiva del 30 de junio al 10 de julio de 2026, con EAFIT como institución aliada.",
+      "datos": [
+        {
+          "etiqueta": "Lugar",
+          "valor": "Medellín, Colombia"
+        },
+        {
+          "etiqueta": "Fechas",
+          "valor": "30 de junio al 10 de julio de 2026"
+        },
+        {
+          "etiqueta": "Participantes del semillero",
+          "valor": "7 estudiantes"
+        },
+        {
+          "etiqueta": "Institución aliada",
+          "valor": "EAFIT, semillero de Programación Competitiva"
+        }
+      ],
+      "parrafos": [
+        "El campamento tuvo categorías básica y avanzada, de modo que cada estudiante entrenó según su nivel de experiencia.",
+        "Reunió a entrenadores y mentores con trayectoria en maratones de programación, competidores que han llegado a instancias mundiales del ICPC y expertos internacionales, entre ellos invitados de Argentina.",
+        "El programa combinó sesiones teóricas, talleres prácticos y simulacros de competencia. Los estudiantes trabajaron estrategias para resolver problemas bajo presión de tiempo.",
+        "Además del componente técnico, la experiencia permitió establecer contacto con semilleros de otras instituciones y con competidores de distintas partes, lo que amplía las posibilidades de intercambio académico del semillero Goslint. Fue la primera participación presencial del semillero en un Training Camp."
+      ],
+      "temas_titulo": "Temas trabajados",
+      "temas": [
+        "Programación dinámica",
+        "Teoría de grafos",
+        "Matemáticas discretas",
+        "Estructuras de datos avanzadas",
+        "Trabajo colaborativo bajo presión de tiempo"
+      ],
+      "galeria": [
+        {
+          "archivo": "fotos/training-camp-01-eafit.jpg",
+          "alt": "Grupo de estudiantes sentados en una terraza cubierta, con las letras de EAFIT al fondo.",
+          "pie": "Estudiantes de la UCEVA en EAFIT, Medellín.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/training-camp-03-entrenamiento.jpg",
+          "alt": "Dos estudiantes resolviendo un problema en un cuaderno, con proyecciones del entrenamiento en la pared del salón.",
+          "pie": "Sesión de entrenamiento del campamento.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/training-camp-04-grupo.jpg",
+          "alt": "Participantes del campamento sentados frente a sus equipos en una sala de cómputo, mirando a la cámara.",
+          "pie": "Participantes durante una jornada de práctica.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/training-camp-02-sala.jpg",
+          "alt": "Estudiantes frente a computadores en una sala de cómputo durante el entrenamiento.",
+          "pie": "Sala de cómputo durante el campamento.",
+          "publicar": false
+        }
+      ],
+      "fuentes": [
+        "Nota institucional UCEVA, Internacionalización de Sistemas: Estudiantes de Ingeniería de Sistemas participan en el Training Camp 2026 (actualizada el 7 de septiembre de 2026).",
+        "Informe Final IdC 2026, sección 1, Universidad EAFIT."
+      ]
+    },
+    {
+      "id": "curso",
+      "titulo": "Curso Pensamiento Computacional y Resolución de Problemas",
+      "resumen": "Curso virtual en Moodle, de 8 sesiones y 24 horas, que ofrece una introducción práctica al pensamiento computacional sin pedir conocimientos previos de programación. Trabaja cuatro habilidades: descomposición, reconocimiento de patrones, abstracción y diseño de algoritmos.",
+      "datos": [
+        {
+          "etiqueta": "Modalidad",
+          "valor": "Virtual, en Moodle"
+        },
+        {
+          "etiqueta": "Fechas",
+          "valor": "1 de septiembre al 30 de octubre de 2026"
+        },
+        {
+          "etiqueta": "Duración",
+          "valor": "8 sesiones, 24 horas"
+        },
+        {
+          "etiqueta": "Resultado",
+          "valor": "13 estudiantes completaron las 8 sesiones (100 %) y 10 obtuvieron insignia digital (76,9 %)"
+        },
+        {
+          "etiqueta": "Cooperante",
+          "valor": "Kripto, empresa de Noruega"
+        }
+      ],
+      "parrafos": [
+        "Al terminar el curso, el estudiante analiza un problema, lo divide en partes manejables, reconoce patrones, se queda con la información relevante y propone una solución en forma de procedimiento, pseudocódigo o modelo.",
+        "Cada sesión trae presentaciones con la explicación de los conceptos, infografías de resumen y videos complementarios. Las actividades incluyen foros, cuestionarios interactivos y ejercicios prácticos, y los estudiantes entregan sus productos en la plataforma. Una de las sesiones cuenta con un podcast con un experto internacional invitado.",
+        "La evaluación combina un proyecto aplicado a un problema real o contextualizado, talleres prácticos, actividades asincrónicas guiadas, discusión de casos y una presentación final de la solución."
+      ],
+      "temas_titulo": "Temáticas del curso",
+      "temas": [
+        "Fundamentos del pensamiento computacional y la resolución de problemas",
+        "Delimitación y descomposición de problemas",
+        "Reconocimiento de patrones y generalización",
+        "Abstracción, modelado y representación",
+        "Pensamiento algorítmico, prueba y refinamiento",
+        "Trabajo colaborativo y diseño de solución a problemas contextualizados"
+      ],
+      "enlace": {
+        "texto": "Ir al curso en Moodle",
+        "url": "https://piensacomputacional.org/"
+      },
+      "acceso_invitado": "PENDIENTE: no habrá usuario de prueba. La página muestra capturas del curso y el enlace a la plataforma. Confirmar si el curso abre sin iniciar sesión. No poner usuario ni contraseña en la página.",
+      "galeria": [
+        {
+          "archivo": "fotos/moodle-01-inicio.jpg",
+          "alt": "Portada del curso Pensamiento Computacional y Resolución de Problemas en Moodle, con el menú de sesiones a la izquierda.",
+          "pie": "Portada del curso en la plataforma Moodle.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/moodle-02-bienvenida.jpg",
+          "alt": "Video de bienvenida del curso, con ilustraciones de descomposición, reconocimiento de patrones, abstracción y pensamiento algorítmico.",
+          "pie": "Video de bienvenida al curso.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/moodle-03-sesion-6.jpg",
+          "alt": "Sesión 6 del curso, con el video de un podcast con un experto internacional invitado.",
+          "pie": "Sesión 6: trabajo colaborativo y diseño de solución a problemas contextualizados.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/moodle-04-material.jpg",
+          "alt": "Diapositiva de bienvenida a la Unidad 01 del curso, Fundamentos del Pensamiento Computacional y Resolución de Problemas.",
+          "pie": "Material del curso: Unidad 01.",
+          "publicar": true
+        }
+      ],
+      "pendientes": [
+        "Captura de un cuestionario o actividad, sin nombres de estudiantes.",
+        "Captura de la insignia digital.",
+        "Confirmar el número de sesiones: en el menú se ven una bienvenida y 7 sesiones, y el informe dice 8."
+      ],
+      "fuentes": [
+        "Informe Final IdC 2026, sección 2 y cuadro de evaluación del curso.",
+        "Capturas de la plataforma Moodle del curso."
+      ]
+    },
+    {
+      "id": "clase-espejo",
+      "titulo": "Clase espejo interinstitucional con REDDIS",
+      "resumen": "El 7 de noviembre de 2026, la profesora Vivian Orejuela Ruiz realizó una clase espejo con REDDIS que reunió a 1.658 estudiantes y egresados inscritos, de los cuales 841 asistieron.",
+      "datos": [
+        {
+          "etiqueta": "Fecha",
+          "valor": "7 de noviembre de 2026"
+        },
+        {
+          "etiqueta": "Responsable",
+          "valor": "Profesora Vivian Orejuela Ruiz"
+        },
+        {
+          "etiqueta": "Inscritos",
+          "valor": "1.658 estudiantes y egresados"
+        },
+        {
+          "etiqueta": "Asistencia efectiva",
+          "valor": "841 personas (50,7 %)"
+        },
+        {
+          "etiqueta": "Aliado",
+          "valor": "REDDIS"
+        }
+      ],
+      "parrafos": [
+        "La actividad fortaleció el intercambio académico y la cooperación entre instituciones, y mostró cómo se pueden hacer experiencias de formación compartidas con apoyo de la tecnología.",
+        "Es uno de los cuatro productos del proyecto y se conecta con los contactos hechos en WEEF 2026, donde se identificó la posibilidad de repetir clases espejo con otras instituciones."
+      ],
+      "pendientes": [
+        "Fotos o capturas de la clase.",
+        "Informe de la clase espejo del 7 de noviembre (el Informe Final dice que va como anexo).",
+        "Tema de la clase.",
+        "Confirmar si el nombre correcto es REDDIS o REDIS (el informe usa ambos)."
+      ],
+      "galeria": [],
+      "fuentes": [
+        "Informe Final IdC 2026, sección 4."
+      ]
+    },
+    {
+      "id": "weef",
+      "titulo": "WEEF 2026, Congreso Mundial de Educación en Ingeniería",
+      "resumen": "Dos docentes del programa participaron en el congreso organizado por ACOFI, en la reunión de REDIS nacional y en el taller sobre internacionalización de currículos de ingeniería.",
+      "datos": [
+        {
+          "etiqueta": "Evento",
+          "valor": "WEEF 2026, organizado por ACOFI"
+        },
+        {
+          "etiqueta": "Lugar y fechas",
+          "valor": "Cartagena de Indias, 22 al 25 de septiembre de 2026"
+        },
+        {
+          "etiqueta": "Participantes UCEVA",
+          "valor": "Vivian Orejuela Ruiz y Yuri Mercedes Bermúdez Mazuera, docentes"
+        },
+        {
+          "etiqueta": "Espacios",
+          "valor": "Congreso, reunión de REDIS nacional y workshop Internationalization Engineering Curricula"
+        }
+      ],
+      "parrafos": [
+        "En esos espacios se hicieron contactos con docentes e investigadoras de otras instituciones, y se conversó sobre estrategias de internacionalización curricular, metodologías de enseñanza y oportunidades de cooperación.",
+        "De esos contactos salieron posibilidades concretas: clases espejo, intercambio de experiencias pedagógicas, participación en redes de colaboración e iniciativas de investigación en educación en ingeniería."
+      ],
+      "instituciones_contacto_titulo": "Instituciones con las que se hicieron contactos",
+      "instituciones_contacto": [
+        "Universidad Nacional de Entre Ríos, Argentina",
+        "Universidad de la Amazonia, Colombia",
+        "Corporación Universitaria del Caribe, CECAR, Colombia"
+      ],
+      "pendientes": [
+        "Lo que haya en el informe de ACOFI que la profe quiera mostrar."
+      ],
+      "galeria": [
+        {
+          "archivo": "fotos/weef-01-letrero.jpg",
+          "alt": "Letrero principal de WEEF 2026 (IFEES y GEDC) en Cartagena de Indias, con una asistente delante.",
+          "pie": "Docentes de la UCEVA en WEEF 2026, Cartagena de Indias",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/weef-02-acreditacion.jpg",
+          "alt": "Zona de acreditación de WEEF 2026 con una asistente delante del mostrador.",
+          "pie": "Docentes de la UCEVA en WEEF 2026, Cartagena de Indias",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/weef-03-cena.jpg",
+          "alt": "Cena de gala al aire libre en Cartagena, con mesas vestidas de blanco.",
+          "pie": "Cena del evento en Cartagena.",
+          "publicar": false
+        }
+      ],
+      "fuentes": [
+        "Informe Final IdC 2026, sección 3."
+      ]
+    }
+  ],
+  "aliados": [
+    "EAFIT",
+    "Universidad del Valle, sede Buga",
+    "Universidad Tecnológica de Pereira",
+    "Kripto, Noruega"
+  ]
+}

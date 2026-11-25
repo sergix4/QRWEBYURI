@@ -1,0 +1,21 @@
+.portada { background: var(--morado-profundo); color: #fff; }
+.portada .contenedor { padding-top: 2rem; padding-bottom: 2.25rem; }
+.logo { width: 11rem; height: auto; margin-bottom: 1.5rem; }
+.antetitulo { margin: 0 0 .75rem; font-size: 1rem; letter-spacing: .02em; color: #e3d2f5; }
+h1 { margin: 0 0 1.75rem; font-size: clamp(1.5rem, 5.4vw, 2.5rem); line-height: 1.2; font-weight: 700; max-width: 44ch; text-wrap: balance; }
+.ficha { margin: 0; display: grid; gap: 1rem 2rem; grid-template-columns: 1fr; }
+.ficha div { border-left: 3px solid var(--amarillo); padding-left: .85rem; }
+dt { font-size: 1rem; text-transform: uppercase; letter-spacing: .05em; color: #d9c2f2; margin-bottom: .15rem; }
+dd { margin: 0; font-size: 1.0625rem; line-height: 1.45; }
+.franja { display: flex; height: .5rem; }
+.franja span { flex: 1; }
+.franja span:nth-child(1) { background: var(--cian); }
+.franja span:nth-child(2) { background: var(--amarillo); }
+.franja span:nth-child(3) { background: var(--rosado); }
+.franja span:nth-child(4) { background: var(--morado); }
+@media (min-width: 700px) {
+  .ficha { grid-template-columns: repeat(3, 1fr); }
+  .ficha .ancho { grid-column: 1 / -1; }
+  .portada .contenedor { padding-top: 3rem; padding-bottom: 3rem; }
+  .logo { width: 13rem; }
+}

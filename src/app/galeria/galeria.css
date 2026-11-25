@@ -1,0 +1,12 @@
+.galeria { column-count: 1; column-gap: 1.25rem; }
+figure { margin: 0 0 1.5rem; break-inside: avoid; }
+img { display: block; width: 100%; height: auto; border-radius: 4px; background: var(--lila); }
+.capturas img { border: 1px solid var(--borde); }
+figcaption { margin-top: .5rem; font-size: 1rem; line-height: 1.4; color: var(--texto-suave); }
+.hueco { display: grid; place-items: center; border: 2px dashed var(--aviso-borde); background: var(--aviso); font-weight: 700; }
+.pendiente-nota { display: block; margin-top: .35rem; padding: .35rem .5rem; background: var(--aviso); border-left: 4px solid var(--aviso-borde); color: var(--texto); font-size: 1rem; }
+@media (min-width: 600px) { .galeria { column-count: 2; } }
+@media (min-width: 1000px) { .galeria:not(.capturas) { column-count: 3; } }
+.galeria.capturas { column-count: auto; display: grid; gap: 1.5rem 1.25rem; grid-template-columns: 1fr; }
+.capturas figure { margin: 0; }
+@media (min-width: 600px) { .galeria.capturas { grid-template-columns: repeat(2, 1fr); } }

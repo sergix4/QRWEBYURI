@@ -1,0 +1,78 @@
+@let s = seccion();
+<section [id]="s.id" [attr.aria-labelledby]="'t-' + s.id" class="seccion">
+  <div class="contenedor">
+    <h2 [id]="'t-' + s.id"><span class="num" aria-hidden="true">{{ indice() + 1 }}</span>{{ s.titulo }}</h2>
+    <p class="resumen">{{ s.resumen }}</p>
+
+    @if (s.datos?.length) {
+      <dl class="datos">
+        @for (d of s.datos; track d.etiqueta) {
+          <div><dt>{{ d.etiqueta }}</dt><dd>{{ d.valor }}</dd></div>
+        }
+      </dl>
+    }
+
+    @for (p of s.parrafos; track $index) {
+      <p class="texto">{{ p }}</p>
+    }
+
+    @if (s.enlace; as e) {
+      <p class="fila-boton"><a class="boton" [href]="e.url" rel="noopener">{{ e.texto }}</a></p>
+    }
+
+    @if (s.tabla_columnas && s.tabla_filas) {
+      <app-tabla [titulo]="s.tabla_titulo" [nota]="s.tabla_nota" [columnas]="s.tabla_columnas" [filas]="s.tabla_filas" />
+    }
+
+    @if (s.temas?.length) {
+      <h3>{{ s.temas_titulo }}</h3>
+      <ul class="lista">
+        @for (t of s.temas; track t) {
+          <li>{{ t }}</li>
+        }
+      </ul>
+    }
+
+    @if (s.instituciones_contacto?.length) {
+      <h3>{{ s.instituciones_contacto_titulo }}</h3>
+      <ul class="lista">
+        @for (t of s.instituciones_contacto; track t) {
+          <li>{{ t }}</li>
+        }
+      </ul>
+    }
+
+    @if (s.galeria?.length) {
+      <h3>{{ s.id === 'curso' ? 'Capturas del curso' : 'Fotos' }}</h3>
+      <app-galeria [fotos]="s.galeria!" [tipo]="s.id === 'curso' ? 'capturas' : 'fotos'" />
+    }
+
+    @if (s.credito_fotos) {
+      <p class="pendiente">Crédito de fotos: {{ s.credito_fotos }}</p>
+    }
+    @if (s.acceso_invitado) {
+      <p class="pendiente">Acceso de invitado: {{ s.acceso_invitado }}</p>
+    }
+    @if (s.pendientes?.length) {
+      <div class="pendiente">
+        <p class="pendiente-titulo">Pendientes de esta sección</p>
+        <ul>
+          @for (t of s.pendientes; track t) {
+            <li>{{ t }}</li>
+          }
+        </ul>
+      </div>
+    }
+
+    @if (s.fuentes?.length) {
+      <div class="fuentes">
+        <p class="fuentes-titulo">Fuentes</p>
+        <ul>
+          @for (f of s.fuentes; track f) {
+            <li>{{ f }}</li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+</section>

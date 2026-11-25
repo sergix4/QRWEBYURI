@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.angular/
+qa/node_modules/
+qr/qr.png
+qr/qr.svg
+qr/.venv/
+__pycache__/
+src/app/datos/contenido.generado.json
+datos/interno.json
+qa/capturas/borrador-*

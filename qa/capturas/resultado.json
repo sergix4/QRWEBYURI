@@ -1,0 +1,412 @@
+{
+  "consola": [],
+  "externas": [],
+  "desbordes": {
+    "390": {
+      "scrollW": 390,
+      "clientW": 390
+    },
+    "768": {
+      "scrollW": 768,
+      "clientW": 768
+    },
+    "1280": {
+      "scrollW": 1280,
+      "clientW": 1280
+    }
+  },
+  "imagenes": {
+    "390": [
+      {
+        "src": "logo-uceva-55-blanco.png",
+        "ok": true,
+        "ratio": 4.235,
+        "mostrado": 4.19
+      },
+      {
+        "src": "fotos/semillero-01-icpc-sa-regional-2025.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.751
+      },
+      {
+        "src": "fotos/semillero-02-icpc-nacional-2026.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-03-maraton-interna-2026.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-04-icpc-nacional-2024.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-05-utp-open.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-06-icpc-nacional-2025.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.751
+      },
+      {
+        "src": "fotos/training-camp-01-eafit.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/training-camp-03-entrenamiento.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/training-camp-04-grupo.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.751
+      },
+      {
+        "src": "fotos/moodle-01-inicio.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.737
+      },
+      {
+        "src": "fotos/moodle-02-bienvenida.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.737
+      },
+      {
+        "src": "fotos/moodle-03-sesion-6.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.737
+      },
+      {
+        "src": "fotos/moodle-04-material.jpg",
+        "ok": true,
+        "ratio": 1.762,
+        "mostrado": 1.762
+      },
+      {
+        "src": "fotos/weef-01-letrero.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/weef-02-acreditacion.jpg",
+        "ok": true,
+        "ratio": 2.228,
+        "mostrado": 2.224
+      }
+    ],
+    "768": [
+      {
+        "src": "logo-uceva-55-blanco.png",
+        "ok": true,
+        "ratio": 4.235,
+        "mostrado": 4.245
+      },
+      {
+        "src": "fotos/semillero-01-icpc-sa-regional-2025.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.75
+      },
+      {
+        "src": "fotos/semillero-02-icpc-nacional-2026.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-03-maraton-interna-2026.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-04-icpc-nacional-2024.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-05-utp-open.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/semillero-06-icpc-nacional-2025.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.75
+      },
+      {
+        "src": "fotos/training-camp-01-eafit.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/training-camp-03-entrenamiento.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/training-camp-04-grupo.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.75
+      },
+      {
+        "src": "fotos/moodle-01-inicio.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.735
+      },
+      {
+        "src": "fotos/moodle-02-bienvenida.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.735
+      },
+      {
+        "src": "fotos/moodle-03-sesion-6.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.735
+      },
+      {
+        "src": "fotos/moodle-04-material.jpg",
+        "ok": true,
+        "ratio": 1.762,
+        "mostrado": 1.762
+      },
+      {
+        "src": "fotos/weef-01-letrero.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.331
+      },
+      {
+        "src": "fotos/weef-02-acreditacion.jpg",
+        "ok": true,
+        "ratio": 2.228,
+        "mostrado": 2.235
+      }
+    ],
+    "1280": [
+      {
+        "src": "logo-uceva-55-blanco.png",
+        "ok": true,
+        "ratio": 4.235,
+        "mostrado": 4.245
+      },
+      {
+        "src": "fotos/semillero-01-icpc-sa-regional-2025.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.749
+      },
+      {
+        "src": "fotos/semillero-02-icpc-nacional-2026.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.332
+      },
+      {
+        "src": "fotos/semillero-03-maraton-interna-2026.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.332
+      },
+      {
+        "src": "fotos/semillero-04-icpc-nacional-2024.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.332
+      },
+      {
+        "src": "fotos/semillero-05-utp-open.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.332
+      },
+      {
+        "src": "fotos/semillero-06-icpc-nacional-2025.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.749
+      },
+      {
+        "src": "fotos/training-camp-01-eafit.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.332
+      },
+      {
+        "src": "fotos/training-camp-03-entrenamiento.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.332
+      },
+      {
+        "src": "fotos/training-camp-04-grupo.jpg",
+        "ok": true,
+        "ratio": 0.75,
+        "mostrado": 0.749
+      },
+      {
+        "src": "fotos/moodle-01-inicio.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.733
+      },
+      {
+        "src": "fotos/moodle-02-bienvenida.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.733
+      },
+      {
+        "src": "fotos/moodle-03-sesion-6.jpg",
+        "ok": true,
+        "ratio": 1.733,
+        "mostrado": 1.733
+      },
+      {
+        "src": "fotos/moodle-04-material.jpg",
+        "ok": true,
+        "ratio": 1.762,
+        "mostrado": 1.762
+      },
+      {
+        "src": "fotos/weef-01-letrero.jpg",
+        "ok": true,
+        "ratio": 1.333,
+        "mostrado": 1.332
+      },
+      {
+        "src": "fotos/weef-02-acreditacion.jpg",
+        "ok": true,
+        "ratio": 2.228,
+        "mostrado": 2.223
+      }
+    ]
+  },
+  "nav": {
+    "390": [
+      {
+        "id": "semillero",
+        "tituloTop": 152,
+        "barraBottom": 89,
+        "tapado": false
+      },
+      {
+        "id": "training-camp",
+        "tituloTop": 152,
+        "barraBottom": 89,
+        "tapado": false
+      },
+      {
+        "id": "curso",
+        "tituloTop": 152,
+        "barraBottom": 89,
+        "tapado": false
+      },
+      {
+        "id": "clase-espejo",
+        "tituloTop": 152,
+        "barraBottom": 89,
+        "tapado": false
+      },
+      {
+        "id": "weef",
+        "tituloTop": 152,
+        "barraBottom": 89,
+        "tapado": false
+      }
+    ],
+    "768": [
+      {
+        "id": "semillero",
+        "tituloTop": 112,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "training-camp",
+        "tituloTop": 112,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "curso",
+        "tituloTop": 112,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "clase-espejo",
+        "tituloTop": 112,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "weef",
+        "tituloTop": 112,
+        "barraBottom": 49,
+        "tapado": false
+      }
+    ],
+    "1280": [
+      {
+        "id": "semillero",
+        "tituloTop": 128,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "training-camp",
+        "tituloTop": 128,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "curso",
+        "tituloTop": 128,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "clase-espejo",
+        "tituloTop": 128,
+        "barraBottom": 49,
+        "tapado": false
+      },
+      {
+        "id": "weef",
+        "tituloTop": 128,
+        "barraBottom": 49,
+        "tapado": false
+      }
+    ]
+  }
+}

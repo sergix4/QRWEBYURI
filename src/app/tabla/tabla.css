@@ -1,0 +1,17 @@
+table { width: 100%; border-collapse: collapse; background: #fff; }
+h3 { margin: 0 0 .35rem; font-size: 1.25rem; color: var(--morado); }
+.nota { margin: 0 0 1rem; color: var(--texto-suave); max-width: 66ch; }
+th, td { text-align: left; padding: .75rem .85rem; border-bottom: 1px solid var(--borde); vertical-align: top; line-height: 1.4; }
+thead th { background: var(--morado); color: #fff; font-size: 1rem; }
+tbody tr:nth-child(even) { background: var(--lila); }
+td:last-child { font-weight: 700; }
+
+/* Celular: cada fila se vuelve una tarjeta para que nada se corte. */
+@media (max-width: 639px) {
+  thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table, tbody, tr, td { display: block; }
+  tr { border: 1px solid var(--borde); border-left: 4px solid var(--morado); border-radius: 4px; margin-bottom: .75rem; background: #fff !important; }
+  td { border: 0; padding: .5rem .85rem; }
+  td::before { content: attr(data-etiqueta); display: block; font-size: 1rem; text-transform: uppercase; letter-spacing: .06em; color: var(--texto-suave); font-weight: 400; }
+  td:last-child { padding-bottom: .75rem; }
+}

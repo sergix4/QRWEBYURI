@@ -1,0 +1,17 @@
+<div class="galeria" [class.capturas]="tipo() === 'capturas'">
+  @for (f of fotos(); track f.archivo) {
+    <figure [class.sin-publicar]="f.sinPublicar">
+      @if (f.sinPublicar) {
+        <div class="hueco" [style.aspect-ratio]="f.ancho + ' / ' + f.alto">Foto sin publicar</div>
+      } @else {
+        <img [src]="f.archivo" [alt]="f.alt" [attr.width]="f.ancho" [attr.height]="f.alto" loading="lazy" decoding="async" />
+      }
+      <figcaption>
+        {{ f.pie }}
+        @if (f.nota_interna) {
+          <span class="pendiente-nota">Pendiente: {{ f.nota_interna }}</span>
+        }
+      </figcaption>
+    </figure>
+  }
+</div>

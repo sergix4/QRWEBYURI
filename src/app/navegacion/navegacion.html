@@ -1,0 +1,9 @@
+<nav class="barra" aria-label="Secciones">
+  <ul>
+    @for (s of secciones(); track s.id) {
+      <li>
+        <a [href]="'#' + s.id" [attr.aria-current]="activa() === s.id ? 'true' : null">{{ etiqueta(s) }}</a>
+      </li>
+    }
+  </ul>
+</nav>

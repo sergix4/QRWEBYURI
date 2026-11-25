@@ -1,0 +1,4 @@
+.aliados { background: var(--lila); padding: 2.5rem 0; }
+h2 { margin: 0 0 1.25rem; font-size: 1.5rem; color: var(--morado); }
+ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .75rem; }
+li { background: #fff; border: 1px solid var(--borde); border-left: 4px solid var(--amarillo); border-radius: 4px; padding: .65rem 1rem; font-weight: 600; min-height: 2.75rem; display: flex; align-items: center; }

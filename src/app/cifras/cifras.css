@@ -1,0 +1,14 @@
+.cifras { background: #fff; border-bottom: 1px solid var(--borde); }
+.cifras .contenedor { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem 1rem; }
+li { display: flex; flex-direction: column; gap: .15rem; border-top: 4px solid var(--morado); padding-top: .6rem; }
+li:nth-child(2) { border-color: var(--cian-oscuro); }
+li:nth-child(3) { border-color: var(--amarillo); }
+li:nth-child(4) { border-color: var(--rosado); }
+li:last-child { grid-column: 1 / -1; }
+.valor { font-size: 2.5rem; font-weight: 800; line-height: 1; color: var(--morado); font-variant-numeric: tabular-nums; }
+.texto { font-size: 1rem; line-height: 1.35; color: var(--texto-suave); }
+@media (min-width: 900px) {
+  ul { grid-template-columns: repeat(5, 1fr); gap: 1.5rem; }
+  li:last-child { grid-column: auto; }
+}
