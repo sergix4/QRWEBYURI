@@ -2,10 +2,12 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { Seccion } from '../modelo';
 import { Galeria } from '../galeria/galeria';
 import { Tabla } from '../tabla/tabla';
+import { VideoYoutube } from '../video/video';
+import { ParticipantesCurso } from '../participantes/participantes';
 
 @Component({
   selector: 'app-seccion',
-  imports: [Galeria, Tabla],
+  imports: [Galeria, Tabla, VideoYoutube, ParticipantesCurso],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './seccion.html',
   styleUrl: './seccion.css',

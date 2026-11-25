@@ -1,0 +1,29 @@
+<figure>
+  <div class="marco">
+    @if (activo()) {
+      <iframe
+        #marco
+        [src]="embed()"
+        [title]="titulo()"
+        allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    } @else {
+      <button type="button" class="portada" (click)="reproducir()">
+        <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true" focusable="false">
+          <circle cx="32" cy="32" r="30" fill="#FFC403" />
+          <path d="M26 20v24l20-12z" fill="#2f0058" />
+        </svg>
+        <span class="accion">Reproducir video</span>
+        <span class="oculto">: {{ titulo() }}</span>
+      </button>
+    }
+  </div>
+  <figcaption>
+    <strong>{{ titulo() }}</strong>
+    @if (descripcion()) {
+      <span class="descripcion">{{ descripcion() }}</span>
+    }
+    <a [href]="enlace()" target="_blank" rel="noopener noreferrer">Ver en YouTube<span class="oculto"> ({{ titulo() }}, se abre en otra pestaña)</span></a>
+  </figcaption>
+</figure>

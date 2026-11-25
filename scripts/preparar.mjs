@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 const raiz = join(dirname(fileURLToPath(import.meta.url)), '..');
 const borrador = process.argv.includes('--borrador') || process.env.BORRADOR === '1';
 
-const CLAVES_INTERNAS = ['pendientes', 'acceso_invitado', 'nota_interna', 'credito_fotos'];
+const CLAVES_INTERNAS = ['pendientes', 'acceso_invitado', 'nota_interna', 'credito_fotos', 'notas_internas'];
 const TEXTO_PENDIENTE = /pendiente/i;
 // Cadenas que jamás pueden llegar a la versión pública.
 const PROHIBIDAS = [/Prueba2026/i, /contraseña/i, /usuario/i, /\b9 estudiantes/i, /nueve estudiantes/i];
@@ -28,6 +28,7 @@ if (interno) {
   for (const sec of fuente.secciones) {
     for (const f of sec.galeria ?? []) if (interno.notas_fotos?.[f.archivo]) f.nota_interna = interno.notas_fotos[f.archivo];
     if (interno.credito_fotos?.[sec.id]) sec.credito_fotos = interno.credito_fotos[sec.id];
+    if (interno.notas_secciones?.[sec.id]) sec.notas_internas = interno.notas_secciones[sec.id];
   }
 }
 const errores = [];
@@ -81,6 +82,27 @@ function procesarSeccion(sec) {
     for (const f of galeria) delete f.publicar;
     s.galeria = galeria;
     if (!galeria.length) delete s.galeria;
+  }
+
+  for (const v of [...(s.videos ?? []), ...(s.videos_extra ?? [])]) {
+    if (!/^[\w-]{11}$/.test(v.youtube_id)) errores.push(`Id de YouTube no válido: ${v.youtube_id}`);
+  }
+
+  if (s.participantes) {
+    const p = s.participantes;
+    if (p.publicar === false) {
+      omitidos.push({ seccion: ctx, motivo: 'Participantes con `publicar: false`', texto: p.titulo });
+      delete s.participantes;
+    } else {
+      delete p.publicar;
+      if ('nota_interna' in p) {
+        omitidos.push({ seccion: ctx, motivo: 'Nota interna de participantes', texto: p.nota_interna });
+        delete p.nota_interna;
+      }
+      const ruta = join(raiz, 'public', p.insignia_imagen);
+      if (!existsSync(ruta)) errores.push(`Falta la imagen ${p.insignia_imagen}`);
+      else { const d = dimensiones(ruta); p.insignia_ancho = d.ancho; p.insignia_alto = d.alto; }
+    }
   }
 
   // En la versión pública, cualquier texto que diga PENDIENTE se descarta.

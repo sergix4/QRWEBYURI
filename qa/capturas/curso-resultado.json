@@ -1,0 +1,84 @@
+{
+  "consola": [
+    "1280: error: Permissions policy violation: compute-pressure is not allowed in this document."
+  ],
+  "externasCarga": [],
+  "desbordes": {
+    "360": {
+      "scrollW": 360,
+      "clientW": 360
+    },
+    "390": {
+      "scrollW": 390,
+      "clientW": 390
+    },
+    "768": {
+      "scrollW": 768,
+      "clientW": 768
+    },
+    "1280": {
+      "scrollW": 1280,
+      "clientW": 1280
+    }
+  },
+  "filas": 12,
+  "videos": [
+    {
+      "titulo": "Introducción al curso",
+      "iframe": "https://www.youtube-nocookie.com/embed/-TXnwPusHFo?autoplay=1&rel=0",
+      "tituloIframe": "Introducción al curso",
+      "enlace": "https://www.youtube.com/watch?v=-TXnwPusHFo"
+    },
+    {
+      "titulo": "Pensamiento computacional en Crypto",
+      "iframe": "https://www.youtube-nocookie.com/embed/IMx3IDRg-vw?autoplay=1&rel=0",
+      "tituloIframe": "Pensamiento computacional en Crypto",
+      "enlace": "https://www.youtube.com/watch?v=IMx3IDRg-vw"
+    },
+    {
+      "titulo": "Pensar como investigador",
+      "iframe": "https://www.youtube-nocookie.com/embed/-SbOIkokZ08?autoplay=1&rel=0",
+      "tituloIframe": "Pensar como investigador",
+      "enlace": "https://www.youtube.com/watch?v=-SbOIkokZ08"
+    },
+    {
+      "titulo": "Consejos para construir",
+      "iframe": "https://www.youtube-nocookie.com/embed/-Oy8Uual_VA?autoplay=1&rel=0",
+      "tituloIframe": "Consejos para construir",
+      "enlace": "https://www.youtube.com/watch?v=-Oy8Uual_VA"
+    },
+    {
+      "titulo": "Reconocimiento de patrones",
+      "iframe": "https://www.youtube-nocookie.com/embed/haE-XcUHpsQ?autoplay=1&rel=0",
+      "tituloIframe": "Reconocimiento de patrones",
+      "enlace": "https://www.youtube.com/watch?v=haE-XcUHpsQ"
+    },
+    {
+      "titulo": "Habilidades a fortalecer",
+      "iframe": "https://www.youtube-nocookie.com/embed/1Tc22VSsCsI?autoplay=1&rel=0",
+      "tituloIframe": "Habilidades a fortalecer",
+      "enlace": "https://www.youtube.com/watch?v=1Tc22VSsCsI"
+    },
+    {
+      "titulo": "Estrategias para resolver problemas",
+      "iframe": "https://www.youtube-nocookie.com/embed/kups9IDTX1M?autoplay=1&rel=0",
+      "tituloIframe": "Estrategias para resolver problemas",
+      "enlace": "https://www.youtube.com/watch?v=kups9IDTX1M"
+    },
+    {
+      "titulo": "Estrategias para la toma de decisiones",
+      "iframe": "https://www.youtube-nocookie.com/embed/MvFM9nFa9-o?autoplay=1&rel=0",
+      "tituloIframe": "Estrategias para la toma de decisiones",
+      "enlace": "https://www.youtube.com/watch?v=MvFM9nFa9-o"
+    }
+  ],
+  "youtubeTrasPulsar": [
+    "www.youtube-nocookie.com",
+    "fonts.gstatic.com",
+    "www.google.com",
+    "rr1---sn-pm2-auml.googlevideo.com",
+    "rr5---sn-5uaeznlz.googlevideo.com",
+    "i.ytimg.com",
+    "rr2---sn-aj5ua5-5g.googlevideo.com"
+  ]
+}

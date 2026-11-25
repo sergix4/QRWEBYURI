@@ -42,9 +42,32 @@
       </ul>
     }
 
+    @if (s.videos?.length) {
+      <h3>Videos del curso</h3>
+      <div class="videos">
+        @for (v of s.videos; track v.id) {
+          <app-video [titulo]="v.titulo" [youtubeId]="v.youtube_id" [descripcion]="v.descripcion" />
+        }
+      </div>
+      @if (s.videos_extra?.length) {
+        <details class="extra">
+          <summary>{{ s.videos_extra_titulo }}</summary>
+          <div class="videos videos-extra">
+            @for (v of s.videos_extra; track v.youtube_id) {
+              <app-video [titulo]="v.titulo" [youtubeId]="v.youtube_id" />
+            }
+          </div>
+        </details>
+      }
+    }
+
     @if (s.galeria?.length) {
       <h3>{{ s.id === 'curso' ? 'Capturas del curso' : 'Fotos' }}</h3>
       <app-galeria [fotos]="s.galeria!" [tipo]="s.id === 'curso' ? 'capturas' : 'fotos'" />
+    }
+
+    @if (s.participantes; as p) {
+      <app-participantes [datos]="p" />
     }
 
     @if (s.credito_fotos) {
@@ -52,6 +75,16 @@
     }
     @if (s.acceso_invitado) {
       <p class="pendiente">Acceso de invitado: {{ s.acceso_invitado }}</p>
+    }
+    @if (s.notas_internas?.length) {
+      <div class="pendiente">
+        <p class="pendiente-titulo">Notas internas</p>
+        <ul>
+          @for (t of s.notas_internas; track t) {
+            <li>{{ t }}</li>
+          }
+        </ul>
+      </div>
     }
     @if (s.pendientes?.length) {
       <div class="pendiente">
