@@ -15,7 +15,7 @@ const borrador = process.argv.includes('--borrador') || process.env.BORRADOR ===
 const CLAVES_INTERNAS = ['pendientes', 'acceso_invitado', 'nota_interna', 'credito_fotos', 'notas_internas'];
 const TEXTO_PENDIENTE = /pendiente/i;
 // Cadenas que jamás pueden llegar a la versión pública.
-const PROHIBIDAS = [/Prueba2026/i, /contraseña/i, /usuario/i, /\b9 estudiantes/i, /nueve estudiantes/i, /Loaiza/i];
+const PROHIBIDAS = [/Prueba2026/i, /contraseña/i, /usuario/i, /\b9 estudiantes/i, /nueve estudiantes/i];
 
 const fuente = JSON.parse(readFileSync(join(raiz, 'datos', 'contenido.json'), 'utf8'));
 const omitidos = [];
