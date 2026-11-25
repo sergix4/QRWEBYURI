@@ -276,9 +276,127 @@
       ],
       "pendientes": [
         "Captura de un cuestionario o actividad, sin nombres de estudiantes.",
-        "Captura de la insignia digital.",
-        "Confirmar el número de sesiones: en el menú se ven una bienvenida y 7 sesiones, y el informe dice 8."
-      ]
+        "Confirmar el número de sesiones: en el menú se ven una bienvenida y 7 sesiones, y el informe dice 8.",
+        "Confirmar con la profe cuál es el «video de Krypto» (hay 7 videos del podcast en la sesión 6 del Moodle).",
+        "Confirmar el número de insignias: el Informe Final dice 10 y la lista trae 12."
+      ],
+      "videos": [
+        {
+          "id": "intro",
+          "titulo": "Introducción al curso",
+          "youtube_id": "-TXnwPusHFo",
+          "descripcion": "Video de introducción del curso Pensamiento Computacional y Resolución de Problemas.",
+          "destacado": true
+        },
+        {
+          "id": "krypto",
+          "titulo": "Pensamiento computacional en Crypto",
+          "youtube_id": "IMx3IDRg-vw",
+          "descripcion": "Video del podcast con José David Patón, fundador de Krypto (Noruega), cooperante del curso.",
+          "destacado": true
+        }
+      ],
+      "videos_extra_titulo": "Más videos del podcast con José David Patón",
+      "videos_extra": [
+        {
+          "titulo": "Pensar como investigador",
+          "youtube_id": "-SbOIkokZ08"
+        },
+        {
+          "titulo": "Consejos para construir",
+          "youtube_id": "-Oy8Uual_VA"
+        },
+        {
+          "titulo": "Reconocimiento de patrones",
+          "youtube_id": "haE-XcUHpsQ"
+        },
+        {
+          "titulo": "Habilidades a fortalecer",
+          "youtube_id": "1Tc22VSsCsI"
+        },
+        {
+          "titulo": "Estrategias para resolver problemas",
+          "youtube_id": "kups9IDTX1M"
+        },
+        {
+          "titulo": "Estrategias para la toma de decisiones",
+          "youtube_id": "MvFM9nFa9-o"
+        }
+      ],
+      "participantes": {
+        "titulo": "Estudiantes que participaron en el curso y obtuvieron la insignia",
+        "nota": "Insignia digital «Pensamiento Computacional y Resolución de Problemas», emitida por la UCEVA con la Dirección de Internacionalización.",
+        "columnas": [
+          "Estudiante",
+          "Programa",
+          "Insignia"
+        ],
+        "insignia_imagen": "fotos/insignia-curso.jpg",
+        "insignia_alt": "Insignia digital «Pensamiento Computacional y Resolución de Problemas» de la UCEVA y su Dirección de Internacionalización.",
+        "filas": [
+          [
+            "Andrés David Guevara Martínez",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Andrés Felipe Saavedra Pérez",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Cristian Daniel Cardona Correa",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Germán Andrés Rojas Cardona",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Jorge Eduardo Cobo Ocampo",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Juan Estevan Santiago Holguín",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Juan Fernando Ramírez Delgado",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Kevin Andrés Montes Camelo",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Nicolle Daniela Valverde Gallego",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Santiago Ospina González",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Sebastian Morales Florez",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ],
+          [
+            "Sergio Alejandro Morales Florez",
+            "Ingeniería de Sistemas",
+            "Obtenida"
+          ]
+        ],
+        "publicar": true
+      }
     },
     {
       "id": "clase-espejo",

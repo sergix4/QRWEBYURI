@@ -1,11 +1,11 @@
-<div class="tabla-caja">
+<div class="tabla-caja" [class.compacta]="compacta()">
   @if (titulo()) {
     <h3 [id]="idTitulo">{{ titulo() }}</h3>
     @if (nota()) {
       <p class="nota">{{ nota() }}</p>
     }
   }
-  <table [attr.aria-labelledby]="titulo() ? idTitulo : null">
+  <table [attr.aria-labelledby]="etiquetadaPor() ?? (titulo() ? idTitulo : null)">
     <thead>
       <tr>
         @for (c of columnas(); track c) {

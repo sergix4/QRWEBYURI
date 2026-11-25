@@ -73,3 +73,19 @@ La página solo muestra lo que trae `contenido.json`; no se repone nada de la ve
 ## Capturas (`qa/capturas/`)
 
 Por cada ancho (`390-`, `768-`, `1280-`): `encabezado`, `cifras`, `semillero`, `semillero-tabla`, `semillero-galeria`, `training-camp`, `training-camp-galeria`, `curso`, `curso-galeria`, `clase-espejo`, `weef`, `aliados`, `pie`, `pagina-completa`. Además `resultado.json` y los dos informes de Lighthouse.
+
+
+## Ronda de cambios de la profe: videos y participantes del curso
+
+Se ejecutó sobre el build de producción servido con `qa/servir.mjs` y con `qa/curso.mjs` (Chromium con Playwright).
+
+- Capturas de la sección del curso a 360, 390, 768 y 1280 px: `qa/capturas/<ancho>-curso-videos-tabla.png`, `-curso-videos.png`, `-curso-participantes.png` y, a 1280, `1280-curso-videos-reproduciendo.png`. Resultados en `qa/capturas/curso-resultado.json`.
+- Sin scroll horizontal a 360, 390, 768 y 1280 px (scrollWidth igual a clientWidth).
+- Carga inicial: cero peticiones a dominios externos. Al pulsar reproducir en los 8 videos aparece un iframe de `youtube-nocookie.com` con `title` y las peticiones a YouTube empiezan en ese momento. Cada enlace «Ver en YouTube» apunta al id correcto.
+- Tabla de participantes: 12 filas. Ninguna cadena `Loaiza`, `Prueba2026` ni `contraseña` en `dist/`. La nota interna de la tabla vive solo en `datos/interno.json` (ignorado por git).
+- Consola: sin errores ni advertencias hasta antes de reproducir. Tras reproducir, Chromium registra `Permissions policy violation: compute-pressure` que viene del reproductor de YouTube, no de la página.
+- axe (WCAG 2 A/AA, 2.1 A/AA): 0 violaciones a 390 y a 1280 px. Teclado: Tab llega a cada botón «Reproducir video», cada enlace «Ver en YouTube» y el resumen del desplegable, con foco visible. Objetivos menores de 44 px y textos menores de 16 px: ninguno.
+- Lighthouse (`lighthouse-curso-mobile.json`, `lighthouse-curso-desktop.json`): celular 99 rendimiento, 100 accesibilidad, 100 buenas prácticas; escritorio 99, 100, 100. Igual que antes.
+- `npm run build` sin errores, también con `--base-href /QRWEBYURI/`.
+
+Sin probar: reproducción real en celulares, Safari y lector de pantalla. La reproducción se comprobó por la aparición del iframe y de las peticiones a YouTube, no se vio el video corriendo.

@@ -37,6 +37,30 @@ export interface Enlace {
   url: string;
 }
 
+export interface Video {
+  id: string;
+  titulo: string;
+  youtube_id: string;
+  descripcion?: string;
+  destacado?: boolean;
+}
+
+export interface VideoExtra {
+  titulo: string;
+  youtube_id: string;
+}
+
+export interface Participantes {
+  titulo: string;
+  nota: string;
+  columnas: string[];
+  filas: string[][];
+  insignia_imagen: string;
+  insignia_alt: string;
+  insignia_ancho: number;
+  insignia_alto: number;
+}
+
 export interface Seccion {
   id: string;
   titulo: string;
@@ -53,11 +77,17 @@ export interface Seccion {
   instituciones_contacto?: string[];
   enlace?: Enlace;
   galeria?: Foto[];
+  videos?: Video[];
+  videos_extra_titulo?: string;
+  videos_extra?: VideoExtra[];
+  participantes?: Participantes;
   fuentes?: string[];
   /** Solo en borrador. */
   pendientes?: string[];
   acceso_invitado?: string;
   credito_fotos?: string;
+  /** Solo en borrador. */
+  notas_internas?: string[];
 }
 
 export interface Contenido {

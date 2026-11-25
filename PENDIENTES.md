@@ -18,8 +18,9 @@ Motivos: los campos `pendientes`, `acceso_invitado`, `nota_interna` y `credito_f
 ## Curso Pensamiento Computacional y Resolución de Problemas
 
 - **Campo `pendientes`.** Captura de un cuestionario o actividad, sin nombres de estudiantes.
-- **Campo `pendientes`.** Captura de la insignia digital.
 - **Campo `pendientes`.** Confirmar el número de sesiones: en el menú se ven una bienvenida y 7 sesiones, y el informe dice 8.
+- **Campo `pendientes`.** Confirmar con la profe cuál es el «video de Krypto» (hay 7 videos del podcast en la sesión 6 del Moodle).
+- **Campo `pendientes`.** Confirmar el número de insignias: el Informe Final dice 10 y la lista trae 12.
 - **Campo `acceso_invitado`.** PENDIENTE: no habrá usuario de prueba. La página muestra capturas del curso y el enlace a la plataforma. Confirmar si el curso abre sin iniciar sesión. No poner usuario ni contraseña en la página.
 
 ## Clase espejo interinstitucional con REDDIS

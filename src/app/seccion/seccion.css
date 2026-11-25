@@ -33,3 +33,15 @@ app-tabla { display: block; margin: 2rem 0 .5rem; }
 
 @media (min-width: 640px) { .datos { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1000px) { .datos { grid-template-columns: repeat(3, 1fr); } .seccion .contenedor { padding-top: 4rem; padding-bottom: 4.25rem; } }
+
+.videos { display: grid; gap: 1.5rem; grid-template-columns: 1fr; }
+.extra { margin-top: 1.75rem; background: #fff; border: 1px solid var(--borde); border-left: 4px solid var(--cian-oscuro); border-radius: 4px; }
+.extra summary { display: flex; align-items: center; min-height: 2.75rem; padding: .6rem 1rem; font-weight: 700; color: var(--morado); cursor: pointer; }
+.extra summary:focus-visible { outline: 3px solid var(--foco); outline-offset: 2px; }
+.extra[open] summary { border-bottom: 1px solid var(--borde); }
+.videos-extra { padding: 1.25rem 1rem 1.5rem; }
+@media (min-width: 700px) {
+  .videos { grid-template-columns: repeat(2, 1fr); }
+  .videos-extra { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1000px) { .videos-extra { grid-template-columns: repeat(3, 1fr); } }
