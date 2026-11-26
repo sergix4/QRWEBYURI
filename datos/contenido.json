@@ -89,11 +89,10 @@
       ],
       "temas_titulo": "Cómo se clasifica a la Maratón Nacional",
       "temas": [
-        "Evaluación tipo maratón, a cargo del profesor Diego Chicaiza: 2,0 puntos",
-        "Concepto del líder del semillero, según asistencia, nivel y puntuación periódica: 0,5 puntos",
-        "Participación en las competencias de la RPC: 1,0 punto",
-        "Actividad en Codeforces durante el año: 1,0 punto",
-        "Liderazgo en actividades del semillero: 0,5 puntos"
+        "Asistencia y compromiso: Cumplimiento, constancia y nivel demostrado en las reuniones y sesiones periódicas del semillero.",
+        "Entrenamientos virtuales: Participación activa y resolución de problemas en las plataformas RPC y Codeforces a lo largo del año.",
+        "Evaluación tipo maratón: Desempeño y participación en la prueba práctica dirigida por el profesor Diego Chicaiza.",
+        "Liderazgo y apoyo: Iniciativa, colaboración y aporte en la organización o desarrollo de las actividades del semillero."
       ],
       "pendientes": [
         "Puestos de las participaciones en RPC y UTP Open. En el Drive solo hay los enunciados de los problemas, no los marcadores.",
