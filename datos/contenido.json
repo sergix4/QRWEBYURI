@@ -5,7 +5,7 @@
     "subtitulo": "Proyecto de la VI Convocatoria de Internacionalización del Currículo (IdC) 2026",
     "programa": "Ingeniería de Sistemas, Facultad de Ingenierías, UCEVA",
     "semillero": "Semillero Goslint",
-    "lider": "Vivian Orejuela Ruiz",
+    "lider": "Vivian Orejuela Ruiz y Yuri Mercedes Bermúdez Mazuera",
     "evento": "Jornada de Socialización de Resultados, 27 de noviembre de 2026, Dirección de Internacionalización"
   },
   "cifras": [
@@ -54,7 +54,7 @@
         }
       ],
       "parrafos": [
-        "El entrenamiento es permanente. Los estudiantes se reúnen en las salas de sistemas para resolver problemas y repasar temas, practican con las competencias de la RPC y del CCPL para ganar ritmo, y entrenan como se compite en la ICPC: tres personas y un computador.",
+        "El entrenamiento es permanente. Los estudiantes se reúnen en las salas de sistemas para resolver problemas y repasar temas, practican con las competencias de la RPC y del CCPL para ganar ritmo, y entrenan como se compite en la International Collegiate Programming Contest (ICPC): tres personas y un computador.",
         "El semillero organiza la Maratón de Programación UCEVA, abierta a los estudiantes del programa y de la región, que en 2026 llegó a su edición XII. En los últimos años organizó tres maratones internas, con un promedio de 52 participantes por evento. También hubo una edición en Panamá, la primera maratón en el exterior organizada por la UCEVA.",
         "Del semillero salen trabajos de grado y artículos de investigación. Hoy hay dos trabajos de grado en curso, uno sobre un sistema de evaluación de código fuente para maratones de programación en la UCEVA y otro sobre un módulo de entrenamiento para programación competitiva, además de dos artículos en elaboración, uno de ellos sobre el juez virtual Goslint. El semillero también clasificó a la fase nacional de la Red Regional de Semilleros de Investigación (RREDSI)."
       ],
@@ -206,7 +206,7 @@
     {
       "id": "curso",
       "titulo": "Curso Pensamiento Computacional y Resolución de Problemas",
-      "resumen": "Curso virtual en Moodle, de 8 sesiones y 24 horas, que ofrece una introducción práctica al pensamiento computacional sin pedir conocimientos previos de programación. Trabaja cuatro habilidades: descomposición, reconocimiento de patrones, abstracción y diseño de algoritmos.",
+      "resumen": "Curso virtual en Moodle, de 8 sesiones y 24 horas, que ofrece una introducción práctica al pensamiento computacional sin requerir conocimientos previos de programación. Trabaja cuatro habilidades: descomposición, reconocimiento de patrones, abstracción y diseño de algoritmos.",
       "datos": [
         {
           "etiqueta": "Modalidad",
@@ -271,6 +271,18 @@
           "archivo": "fotos/moodle-04-material.jpg",
           "alt": "Diapositiva de bienvenida a la Unidad 01 del curso, Fundamentos del Pensamiento Computacional y Resolución de Problemas.",
           "pie": "Material del curso: Unidad 01.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/insignia-vivian.png",
+          "alt": "Insignia digital otorgada a la docente Vivian Orejuela Ruiz por ACOFI en WEEF 2026.",
+          "pie": "Insignia digital de la docente Vivian Orejuela Ruiz.",
+          "publicar": true
+        },
+        {
+          "archivo": "fotos/insignia-yuri.png",
+          "alt": "Insignia digital otorgada a la docente Yuri Mercedes Bermúdez Mazuera por ACOFI en WEEF 2026.",
+          "pie": "Insignia digital de la docente Yuri Mercedes Bermúdez Mazuera.",
           "publicar": true
         }
       ],
@@ -489,6 +501,12 @@
           "alt": "Cena de gala al aire libre en Cartagena, con mesas vestidas de blanco.",
           "pie": "Cena del evento en Cartagena.",
           "publicar": false
+        },
+        {
+          "archivo": "fotos/weef-04-interculturalidad.jpg",
+          "alt": "Encuentro de interculturalidad al aire libre en Cartagena durante WEEF 2026.",
+          "pie": "Interculturalidad",
+          "publicar": true
         }
       ]
     }
