@@ -2,8 +2,16 @@
 <h3 [id]="idTitulo">{{ p.titulo }}</h3>
 <p class="nota">{{ p.nota }}</p>
 <div class="cuerpo">
-  <figure>
-    <img [src]="p.insignia_imagen" [alt]="p.insignia_alt" [attr.width]="p.insignia_ancho" [attr.height]="p.insignia_alto" loading="lazy" decoding="async" />
-  </figure>
+  <div class="insignias" style="display: flex; flex-direction: column; gap: 1rem;">
+    <figure>
+      <img [src]="p.insignia_imagen" [alt]="p.insignia_alt" [attr.width]="p.insignia_ancho" [attr.height]="p.insignia_alto" loading="lazy" decoding="async" />
+    </figure>
+    <figure>
+      <img src="fotos/insignia-vivian.png" alt="Insignia digital otorgada a la docente Vivian Orejuela Ruiz por ACOFI en WEEF 2026." loading="lazy" decoding="async" />
+    </figure>
+    <figure>
+      <img src="fotos/insignia-yuri.png" alt="Insignia digital otorgada a la docente Yuri Mercedes Bermúdez Mazuera por ACOFI en WEEF 2026." loading="lazy" decoding="async" />
+    </figure>
+  </div>
   <app-tabla [columnas]="p.columnas" [filas]="p.filas" [etiquetadaPor]="idTitulo" [compacta]="true" />
 </div>

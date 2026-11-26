@@ -5,7 +5,7 @@
     "subtitulo": "Proyecto de la VI Convocatoria de Internacionalización del Currículo (IdC) 2026",
     "programa": "Ingeniería de Sistemas, Facultad de Ingenierías, UCEVA",
     "semillero": "Semillero Goslint",
-    "lider": "Vivian Orejuela Ruiz y Yuri Mercedes Bermúdez Mazuera",
+    "lider": "Vivian Orejuela Ruiz\nYuri Mercedes Bermúdez Mazuera",
     "evento": "Jornada de Socialización de Resultados, 27 de noviembre de 2026, Dirección de Internacionalización"
   },
   "cifras": [
@@ -271,18 +271,6 @@
           "archivo": "fotos/moodle-04-material.jpg",
           "alt": "Diapositiva de bienvenida a la Unidad 01 del curso, Fundamentos del Pensamiento Computacional y Resolución de Problemas.",
           "pie": "Material del curso: Unidad 01.",
-          "publicar": true
-        },
-        {
-          "archivo": "fotos/insignia-vivian.png",
-          "alt": "Insignia digital otorgada a la docente Vivian Orejuela Ruiz por ACOFI en WEEF 2026.",
-          "pie": "Insignia digital de la docente Vivian Orejuela Ruiz.",
-          "publicar": true
-        },
-        {
-          "archivo": "fotos/insignia-yuri.png",
-          "alt": "Insignia digital otorgada a la docente Yuri Mercedes Bermúdez Mazuera por ACOFI en WEEF 2026.",
-          "pie": "Insignia digital de la docente Yuri Mercedes Bermúdez Mazuera.",
           "publicar": true
         }
       ],
