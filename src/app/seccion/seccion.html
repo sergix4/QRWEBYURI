@@ -70,6 +70,27 @@
       <app-participantes [datos]="p" />
     }
 
+    @if (s.id === 'weef') {
+      <div class="weef-video-contenedor">
+        <h3>Video</h3>
+        <video class="weef-video" controls preload="metadata" playsinline>
+          <source src="fotos/weef-video.mp4" type="video/mp4" />
+          Tu navegador no soporta la reproducción de video.
+        </video>
+      </div>
+      <div class="banner-docentes">
+        <h4>Insignias de los docentes</h4>
+        <div class="insignias-docentes">
+          <figure>
+            <img src="fotos/insignia-vivian.png" alt="Insignia digital otorgada a la docente Vivian Orejuela Ruiz por ACOFI en WEEF 2026." loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="fotos/insignia-yuri.png" alt="Insignia digital otorgada a la docente Yuri Mercedes Bermúdez Mazuera por ACOFI en WEEF 2026." loading="lazy" decoding="async" />
+          </figure>
+        </div>
+      </div>
+    }
+
     @if (s.credito_fotos) {
       <p class="pendiente">Crédito de fotos: {{ s.credito_fotos }}</p>
     }

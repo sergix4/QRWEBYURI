@@ -8,23 +8,3 @@ img { display: block; width: 100%; height: auto; border-radius: 4px; border: 1px
   .cuerpo { grid-template-columns: 15rem 1fr; gap: 2rem; }
   figure { justify-self: start; }
 }
-.banner-docentes {
-  margin-top: 2rem;
-  padding: 1.5rem;
-  border-radius: 8px;
-  border: 1px solid var(--borde);
-  background: color-mix(in srgb, var(--morado) 8%, #fff);
-}
-.banner-docentes h4 {
-  margin: 0 0 1.25rem;
-  font-size: 1.1rem;
-  color: var(--morado);
-  text-align: center;
-}
-.insignias-docentes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-}
